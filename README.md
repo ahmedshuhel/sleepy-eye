@@ -11,4 +11,4 @@ $ docker run -it -p 8000:8000 -v /c/Users/Shuhel/Workspace/aurelia/playground/sl
 
 ```
 
-> Change the docker volume mout path mapping as per your need/filesystem.
+> Change the docker volume mount point path mapping as per your need/filesystem.
