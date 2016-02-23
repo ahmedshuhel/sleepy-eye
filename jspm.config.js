@@ -33,13 +33,15 @@ SystemJS.config({
     "fs": "github:jspm/nodelibs-fs@0.2.0-alpha",
     "path": "github:jspm/nodelibs-path@0.2.0-alpha",
     "plugin-babel": "npm:systemjs-plugin-babel@0.0.5",
-    "process": "github:jspm/nodelibs-process@0.2.0-alpha"
+    "process": "github:jspm/nodelibs-process@0.2.0-alpha",
+    "text": "github:systemjs/plugin-text@0.0.4"
   },
 
   packages: {
     "sleepy-eye": {
       "format": "esm",
-      "main": "main.js"
+      "main": "main.js",
+      "defaultExtension": "js"
     },
     "npm:aurelia-binding@1.0.0-beta.1.1.3": {
       "map": {
